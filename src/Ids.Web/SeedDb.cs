@@ -177,7 +177,7 @@ namespace EscapeDungeonIdentityWeb
             new ApiResource("ed_gateway")
             {
                 Scopes = new List<string> { "ed_gateway.read", "ed_gateway.write"},
-                ApiSecrets = new List<Secret> {new Secret("ScopeSecret".Sha256())},
+                ApiSecrets = new List<Secret> {new Secret("C4S?$'[V2HYd2U9:".Sha256())},
                 UserClaims = new List<string> {"role"}
             }
         };
