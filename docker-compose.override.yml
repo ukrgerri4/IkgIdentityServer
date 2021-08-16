@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  identity_server:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
