@@ -198,7 +198,7 @@ namespace EscapeDungeonIdentityWeb
                     },
                     ClientSecrets = {new Secret("3+<2P~$RM(,8HwEg".Sha256())},
 
-                    AllowedScopes = { "ed_gateway.read", "ed_gateway.write" }
+                    AllowedScopes = { "ed_gateway.read", "ed_gateway.write", "openid" }
                 },
 
                 /*
