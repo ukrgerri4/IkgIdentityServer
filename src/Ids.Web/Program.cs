@@ -33,7 +33,7 @@ namespace EscapeDungeonIdentity
 
             try
             {
-                Log.Information("Starting up");
+                Log.Warning("Starting up");
                 var host = CreateHostBuilder(args).Build();
 
                 using (var serviceScope = host.Services.CreateScope())

@@ -17,3 +17,17 @@
 3 enable migrations
 	3.1
 		Update-Database -Context PersistedGrantDbContext
+
+
+
+# Deploy to docker
+
+## Rebuild
+docker-compose -f docker-compose.yml build
+
+## Push
+docker push ukrgerri4/identity-server:latest
+
+## On server
+docker-compose pull
+docker-compose up -d

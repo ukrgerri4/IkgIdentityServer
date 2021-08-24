@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7020CA9-3573-4325-AF67-99AF110209A4}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		identity-server.conf = identity-server.conf
 		README.md = README.md
 	EndProjectSection
 EndProject
